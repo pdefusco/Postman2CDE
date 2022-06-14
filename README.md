@@ -114,9 +114,16 @@ Let’s create more requests. Next, we will create a request to create a CDE res
 
 * Create a request with the name “Create Resource”. 
 * Select the “POST” option from the dropdown
-* Enter “{{CDE_JOB_URL}}/resources” in the request field
+* Enter the following in the request field
+```
+{{CDE_JOB_URL}}/resources
+```
+
 * Open the “Body” tab, then the “Raw” option and enter the following json:
-      {"name": "cde_REPORTS_postman"}
+```      
+{"name": "cde_REPORTS_postman"}
+```
+
 * Make sure you select the “JSON” option next to the GraphQL tab
 
 ![alt text](img/postman_14.png)
